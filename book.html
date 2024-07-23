@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Booksky</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class = "navBar">
+            <h1>Booksky</h1>
+        </div>
+
+        <div class="container">
+            <div class="book-container">
+                <h2>Rich Dad Poor Dad</h2>
+                <h5>Robert T. Kiyosaki</h5>
+                <p >Rich Dad teaches that the rich acquire income-generating assets, while the poor and middle class accumulate liabilities that drain their wealth. Building passive income streams, such as rental income from real estate or dividends from investments, is a key strategy for achieving financial freedom.</p>
+                <button onclick="Delete(event)">Delete</button>
+            </div>
+        </div>
+
+        <div class="popup-overlay"></div>
+
+        <div class="pop-box">
+            <h2>Add Book</h2>
+            <form>
+                <input type = "text" placeholder="Book Title" id = "book-title-input">
+                <input type="text" placeholder="Book Author" id="book-author-input">
+                <textarea placeholder="Short Description" id="book-description-input"></textarea>
+                <button id="add-book">ADD</button>
+                <button id="cancle-popup">CANCLE</button>
+            </form>
+        </div>
+
+        <button class="Add" id="add-popup">+</button>
+        <script src="script.js"></script>
+    </body>
+</html>

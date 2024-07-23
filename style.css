@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins' , sans-serif;
+}
+
+.navBar{
+    background-color: #fd6569;
+    padding: 10px;
+}
+
+.container{
+    padding: 10px;
+}
+
+.book-container{
+    padding: 15px;
+    width: 500px;
+    min-height: 220px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 30px;
+    line-height: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.book-container h2{
+    color: #fd6569;
+}
+
+.book-container button{
+    background-color: #fd6569;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.Add{
+    background-color: #fd6569;
+    font-size: 40px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 100%;
+    border: none;
+}
+
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.pop-box{
+    background-color: #fd6569;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+
+.pop-box input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+
+.pop-box textarea{
+    background-color: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+
+.pop-box input::placeholder{
+    color: black;
+}
+
+.pop-box textarea::placeholder{
+    color: black;
+}
+
+.pop-box button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.pop-box input:focus{
+    background-color: #fd6569;
+    outline: none;
+}
+
+.pop-box textarea:focus{
+    outline: none;
+}
